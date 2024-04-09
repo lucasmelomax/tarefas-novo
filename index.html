@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Tarefas</title>
      <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+     <header>
+          <div class="container-header">
+               <div class="nav-tarefa">
+                    <div>
+                         <img src="imagens/raio.png" alt="">
+                    </div>
+                    <h3>Tarefas</h3>
+               </div>
+
+               <nav class="nav-lista">
+                    <ul>
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Services</a></li>
+                         <li><a href="#">List</a></li>
+                         <li><a href="#">Tarefas</a></li>
+                    </ul>
+               </nav>
+
+               <div class="nav-butoes">
+                    <a class="sign-in" href="#">Sign In</a>
+                    <a class="sign-up" href="#">Sign Up</a>
+               </div>
+          </div>
+
+     </header>
+
+     <main class="main-principal">
+          <div class="main-container">
+               <div class="main-developer">
+                    <h2 class="roxo">Developer</h2>
+                    <h2 class="ultimoh2">Checklist</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi exercitationem necessitatibus placeat aliquid eos ipsum, reiciendis itaque ducimus quod expedita, quis enim odio voluptates, nulla accusamus iste voluptatibus dignissimos.</p>
+               </div>
+               <div class="main-tarefas">
+                    <div class="escrever-tarefa">
+                         <form action="#">
+
+                              <label for="tarefa">Adicione sua tarefa:</label>
+                              <input type="text" id="tarefa" name="tarefa">
+                              <!-- <label for="buscar">Buscar:</label>
+                              <input type="text" id="buscar" name="buscar">
 
 
+                              <label for="filtro">Filtro:</label>
+                              <select name="filtro" id="filtro">
+                                   <option value="todos">Todos</option>
+                                   <option value="feitos">Feitos</option>
+                                   <option value="a-fazer">A fazer</option>
+                              </select> -->
 
-     <script src="js/script.js"></script>
+
+                         </form>
+                    </div>
+                    <div>
+                         <div class="tarefas-adicionadas">
+                              <h2>Tarefas</h2>
+                              <div class="js-tarefas">
+                                   <div class="js-nome-tarefas">
+                                        <input type="checkbox">
+                                        <p>Tarefa 1</p>
+                                   </div>
+                                   <div class="js-butao-tarefa">
+                                        <button class="feita">Feita</button>
+                                        <button class="editar">Editar</button>
+                                        <button class="cancelar">Cancelar</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          </div>
+     </main>
+
+
+     <script type="module" src="js/script.js"></script>
 </body>
+
 </html>
