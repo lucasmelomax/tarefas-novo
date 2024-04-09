@@ -1,0 +1,50 @@
+header {
+  margin-top: 30px;
+}
+
+.container-header {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-tarefa img {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+.nav-tarefa {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-lista {
+     padding: 20px 40px;
+     border-radius: 10px;
+     border: 2px solid rgba(129, 129, 129, 0.2);
+}
+
+.nav-lista ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-lista ul a {
+  color: white;
+}
+
+.sign-in {
+  color: white;
+}
+
+.sign-up {
+  color: white;
+  padding: 10px 25px;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  margin-left: 10px;
+}
